@@ -27,7 +27,7 @@ function addImage()
 	newDiv = document.createElement("div");
 	
 	str = "<div style='width:100px; float: left;'>Image : </div><div style='float:left;'>";
-	str += "<input type='file' name='galimage[]' class='file' /> ( Image Size: 960*350 )</div><br style='clear: both;'>";
+	str += "<input type='file' name='galimage[]' class='file' /></div><br style='clear: both;'>";
 	str += "<div style='width:100px; float: left;'>Caption : </div>";
 	str += "<div style='float:left;'><input type='text' name='imageCaption[]' class='text' /></div>";
 	str += "<hr style='clear: both;'>";
@@ -100,6 +100,26 @@ function getAndPut(url, intoDiv)
 		if (xmlHttp.readyState==4)
 		{ 
 			intoDiv.innerHTML = xmlHttp.responseText;
+			CKEDITOR.replace( 'shortcontents');
+			CKEDITOR.replace( 'contents' );
+		}
+	};
+	xmlHttp.open("GET",url,true);
+
+	xmlHttp.send(null);
+}
+
+function getAndPutList(url, intoDiv)
+{
+	xmlHttp = GetXmlHttpObject();
+	
+	xmlHttp.onreadystatechange=function()
+	{
+		if (xmlHttp.readyState==4)
+		{ 
+			intoDiv.innerHTML = xmlHttp.responseText;
+			//CKEDITOR.replace( 'shortcontents');
+			CKEDITOR.replace( 'listDescription' );
 		}
 	};
 	xmlHttp.open("GET",url,true);
@@ -211,7 +231,7 @@ function changeLinkType(sbox)
 
 		myDiv.style.display = 'block';
 
-		getAndPut("ajaxListingPanel.php", myDiv);
+		getAndPutList("ajaxListingPanel.php", myDiv);
 
 		//document.getElementById('contentsLabel').innerHTML = 'Create your gallery';
 	}
