@@ -43,7 +43,7 @@
       <!-- Content unit - One column -->
       <div class="column1-unit">
         <p style="text-align:justify">
-      		<? $wel=$groups->getById(WELCOME); $welget=$conn->fetchArray($wel); echo substr($welget['shortcontents'],0,800);?>
+      		<? $wel=$groups->getById(WELCOME); $welget=$conn->fetchArray($wel); echo $welget['shortcontents'];?>
         </p>
 <a href="<?=$welget['urlname'];?>">See More...</a>
       </div>
