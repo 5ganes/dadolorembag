@@ -3,7 +3,7 @@
 <script type="text/javascript" src="js/jqvideobox.js"></script>
 <?php include("includes/breadcrumb.php"); ?>
 
-<h2><?php echo $pageName; ?></h2>
+<h2><?php if($lan=='en') echo $pageNameEn; else echo $pageName; ?></h2>
 <?php
 $i = 0;
 $pagename = $pageUrlName."/";

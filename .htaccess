@@ -6,6 +6,16 @@ RewriteEngine On
 # live
 # RewriteBase /
 
+#for english
+RewriteRule ^en/home index.php?lan=en [L]
+#RewriteRule ^en/publications index.php?action=publications [L]
+RewriteRule ^en/bills index.php?action=bills [L]
+RewriteRule ^en/contact-us index.php?action=contact-us [L]
+RewriteRule ^en/([-A-Za-z0-9]+)$ index.php?lan=en&query=$1 [L]
+RewriteRule ^en index.php?lan=en [L]
+
+
+RewriteRule ^video-gallery index.php?action=video_gallery [L]
 
 RewriteRule ^cart/remove/([0-9]+)$ index.php?action=cart&removeId=$1 [L]
 RewriteRule ^cart/([0-9]+)$ index.php?action=cart&productId=$1 [L]
@@ -51,6 +61,8 @@ RewriteRule ^feedback index.php?action=feedback [L]
 RewriteRule ^([-A-Za-z0-9]+)/page/([0-9]+)$ index.php?query=$1&page=$2 [L]
 RewriteRule ^([-A-Za-z0-9])+$ index.php?query=$0 [L]
 #RewriteRule index.html$ index.php [L]
+
+RewriteRule video_gallery index.php?action=video_gallery [L]
 
 #for programs
 #RewriteRule ^program-login.html programlogin.php [L]

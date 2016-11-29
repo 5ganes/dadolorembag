@@ -1,9 +1,8 @@
 <div align="right" style="cursor: pointer;" onclick="addImage();">+ Add Image +</div>
 <div id="uploadImageHolder">
- 
   <div style="width:100px; float: left;">Image : </div>
   <div style="float:left;">
-    <input type="file" name="galimage[]" class="file" /> ( Image Size: 473*290 )
+    <input type="file" name="galimage[]" class="file" />
   </div>
   <br style="clear: both;">
   <div style="width:100px; float: left;">Caption : </div>

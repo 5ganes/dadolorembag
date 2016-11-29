@@ -1,44 +1,25 @@
 <?php
-function createMenu($parentId, $groupType)
+function createMenu($parentId, $groupType,$lan)
 {
 	global $groups;
 	global $conn;
 
-	if ($parentId == 0)
+	if ($parentId == 0){
 		$groupResult = $groups->getByParentIdAndType($parentId, $groupType);	
-	else
+	}
+	else{
 		$groupResult = $groups->getByParentId($parentId);		
+	}
 
 	while($groupRow = $conn->fetchArray($groupResult))
 	{	
-		echo '<ul><li>';
+		echo '<li>';
 		?>
-    	<a href="<? echo $groupRow['urlname'];?>"><?=$groupRow['name'];?></a>
+    	<a href="<? if($lan=='en') echo 'en/'; echo $groupRow['urlname'];?>">
+    		<? if($lan=='en') echo $groupRow['nameen']; else echo $groupRow['name'];?>
+    	</a>
 		<?
-		echo "</li></ul>\n";
+		echo "</li>\n";
 	}
 }
-?>
-
-<?
-	function createByBlock($id)
-	{
-		//echo "hello";
-		//die();
-		global $groups;
-		global $conn;
-		if($id==2)
-			$block="Category Submenu";
-		else if($id==3)
-			$block="Destination Submenu";
-		$act=$groups->getByBlock($block);
-		echo '<ul>';
-		while($actGet=$conn->fetchArray($act))
-		{?>
-        	<li><a href="<? if($block=="Activity Submenu"){?>activity<? }else{?>destination<? }?>-<?=$actGet['urlname'];?>.html"><?=$actGet['name'];?></a></li>		
-		<? }
-		echo '</ul>';
-	}
-
-
 ?>

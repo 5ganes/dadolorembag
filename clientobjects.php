@@ -42,38 +42,16 @@ include("includes/enquiry.php");
 $query = "";
 if (isset($_GET['query']))
 	$query = $_GET['query'];
-	
+	//echo $query;
 if (!empty($query)) {
 	$pageRow = $groups->getByURLName($query);
 	if ($pageRow) {
 		
-		$pageId = $pageRow['id'];
-		$pageName = $pageRow['name'];
-		$pageUrlName = $pageRow['urlname'];
-		$pageType = $pageRow['type'];
-		$pageParentId = $pageRow['parentId'];
-		$pageShortContents = $pageRow['shortcontents'];
-		$pageContents = $pageRow['contents'];
-		$pageLinkType = $pageRow['linkType'];
-		$pageWeight = $pageRow['weight'];
-		$pageDate = $pageRow['onDate'];
-		$pageImage = $pageRow['image'];
-		$pageFeatured = $pageRow['featured'];
-		$pageCode = $pageRow['code'];
-		$pagePrice = $pageRow['price'];
-		$pagePageTitle = $pageRow['pageTitle'];
-		$pagePageKeyword = $pageRow['pageKeyword'];
-		$pageDisplay = $pageRow['display'];
-		
-		if ($pageLinkType == "Link") {
-			header("Location: " . $pageRow['contents']);
-			exit();
-		} elseif ($pageLinkType == "File") {
-			header("Location: " . CMS_FILES_DIR . $pageRow['contents']);
-			exit();
-		}		
+		$pageLinkType = $pageRow['linkType'];		
 	}
 }
+else
+	$query='';
 
 include("menufunction.php");
 

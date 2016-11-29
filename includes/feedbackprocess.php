@@ -23,7 +23,7 @@ if(isset($_POST['btnFeedback']))
 			$headers .= "X-Priority: 1\r\n";
 			//sendEmail("kh6ganesh@yahoo.com", "Inquiry", $msg, $name);
 			
-			$arrTo = array("kh6ganesh@gmail.com");
+			$arrTo = array("info@dadogulmi.gov.np");
 			$subject = "Inquiry Details :";
 			
 			mail($arrTo[0], $subject, $msg, $headers);

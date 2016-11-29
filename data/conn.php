@@ -17,7 +17,7 @@
 			$this->links = mysql_connect($this->host,$this->uname,$this->psw) or die("Sorry, couldnot connect to MySQL Server");
 			$this->db = mysql_select_db($this->dbname,$this->links) or die("Sorry, couldnot find database");	
 			//$result = mysql_query("SET NAMES utf8");		
-			//mysql_set_charset('utf8');
+			mysql_set_charset('utf8');
 			
 			//mysql_query("SET NAMES 'utf8'");
 			//mysql_query("SET CHARACTER SET utf8");

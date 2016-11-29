@@ -4,7 +4,7 @@ define("ADMIN_PAGE_WIDTH", 1000);
 define("ADMIN_LEFT_WIDTH", "20%");
 define("ADMIN_BODY_WIDTH", "80%");
 define("ADMIN_TITLE", "Admin Control Panel");
-define("PAGE_TITLE", "Agriculture Development Office, Baglung, Nepal");
+define("PAGE_TITLE", "DADO Baglung");
 define("SITE_URL", "http://localhost/dadobaglung/");
 
 
@@ -18,19 +18,23 @@ define("CMS_TESTIMONIALS_DIR", "files/testimonials/");
 define("CMS_ADDS_DIR", "files/adds/");
 
 define("ADMIN_VIDEO_GALLERY_LIMIT", 6); // VIDEO GALLERY LIMIT FOR ADMIN
-define("ADMIN_GALLERY_LIMIT", 12); // IMAGE GALLERY LIMIT FOR ADMIN
+define("ADMIN_GALLERY_LIMIT", 20); // IMAGE GALLERY LIMIT FOR ADMIN
 define("PAGING_LIMIT", 30); // LISTING TYPE LIMIT FOR CLIENT
-define("LISTING_LIMIT", 6); // IMAGE AND VIDEO GALLERY LIMIT FOR CLIENT
+define("LISTING_LIMIT", 15); // IMAGE AND VIDEO GALLERY LIMIT FOR CLIENT
 
 
 define("SLIDER", 8);
 define("WELCOME", 176);	
-define("TREKKING",14);
 define("CONTACT", 234);
 
-define("TRAINING",3);
-define("NURSERY", 5);
-define("PROGRAMPROGRESS", 7);
+define("INFO_OFFICER", 362);
+define("LINKS", 363);
+define("NEWS", 321);
+define("OFFICER", 274);
+define("PHOTO_GALLERY", 367);
+define("PUBLICATION", 338);
+define("YOUTUBE", 373);
+define("VIDEO_GALLERY", 386);
 
 ///////////////GENERAL CLIENT SIDE CONSTANTS///////////////////
 
