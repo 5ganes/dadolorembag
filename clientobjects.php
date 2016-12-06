@@ -15,6 +15,10 @@ require_once("data/feedbacks.php");
 require_once("data/donate.php");
 require_once("data/enewsletters.php");
 
+require_once("data/sewakendra.php");
+global $kendra;
+$kendra = new Sewakendra();
+
 //include for programs
 require_once("data/program.php");
 $program = new Program();
@@ -47,7 +51,11 @@ if (!empty($query)) {
 	$pageRow = $groups->getByURLName($query);
 	if ($pageRow) {
 		
-		$pageLinkType = $pageRow['linkType'];		
+		$pageLinkType = $pageRow['linkType'];
+		if ($pageLinkType == "Link") {
+			header("Location: " . $pageRow['contents']);
+			exit();
+		}		
 	}
 }
 else

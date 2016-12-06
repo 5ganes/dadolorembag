@@ -11,15 +11,24 @@ function createMenu($parentId, $groupType,$lan)
 		$groupResult = $groups->getByParentId($parentId);		
 	}
 
-	while($groupRow = $conn->fetchArray($groupResult))
-	{	
+	if ($conn->numRows($groupResult) > 0 and $parentId != 0){
+		echo '<ul style="display:none">';
+	}
+
+	while($groupRow = $conn->fetchArray($groupResult)){	
 		echo '<li>';
 		?>
-    	<a href="<? if($lan=='en') echo 'en/'; echo $groupRow['urlname'];?>">
+    	<a href="<? if($groupRow['linkType']!='File'){ if($lan=='en') echo 'en/'; echo $groupRow['urlname'];} else{ echo CMS_FILES_DIR.$groupRow['contents'];}?>">
     		<? if($lan=='en') echo $groupRow['nameen']; else echo $groupRow['name'];?>
     	</a>
 		<?
+
+		if($groupRow['linkType']=="Normal Group" and $groupRow['urlname']!='video-gallery')
+			createMenu($groupRow['id'], $groupType, $lan);
+
 		echo "</li>\n";
 	}
+	if ($conn->numRows($groupResult) > 0 and $parentId != 0)
+		echo '</ul>';
 }
 ?>

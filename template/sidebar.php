@@ -1,32 +1,52 @@
 <div class="leftbar">
-    <article class="indent-bot-1">
-        <h2 class="heading-1">Welcome!</h2>
-        <p class="p1">
-            <strong>
-                AgroPlus is one of <a href="http://blog.templatemonster.com/free-website-templates/">Free website templates</a> created by TemplateMonster.com team.
-            </strong>
-        </p>
-        <p class="hr-border-1">
-            This website template is optimized for 
-            1280X1024 screen resolution. It is also XHTML &amp; CSS valid.  The PSD 
-            source files of this <a href="http://blog.templatemonster.com/2012/07/16/free-website-template-jquery-slider-agriculture-business/">AgroPlus</a> template are available for free for the registered members of TemplateMonster.com. Feel free to get them!
+    <article class="indent-bot-1 officer" style="text-align: center;padding: 0 0 5px 0">
+        <?php
+        $officer=$conn->fetchArray($groups->getById(INFO_OFFICER));
+        ?>
+        <h2 class="heading-1"><?php echo $officer['name'];?></h2>
+        <img src="<?php echo CMS_GROUPS_DIR.$officer['image'] ?>" >
+        <p class="hr-border-1 article-content">
+            <?php echo $officer['shortcontents'];?>
         </p>
         <div class="alignright">
-            <a href="#" class="button">Read more</a>
+            <a href="<?php echo $officer['urlname'];?>" class="button">Read more</a>
         </div>
     </article>
+
     <article class="indent-bot-1">
-        <h2 class="heading-1">Our programs:</h2>
+        <?php $link=$conn->fetchArray($groups->getById(LINKS));?>
+        <h2 class="heading-1"><?php echo $link['name']; ?></h2>
         <ul class="list-1">
-            <li><a href="#">Agronomic Practices</a></li>
-            <li><a href="#">Biotechnology</a></li>
-            <li><a href="#">Biotechnology Research</a></li>
-            <li><a href="#">Benefits of Biotechnology</a></li>
-            <li><a href="#">The Regulatory Process</a></li>
-            <li><a href="#">Breeding</a></li>
-            <li><a href="#">Learning Centers</a></li>
+            <?php
+            $links=$groups->getByParentIdWithLimit(LINKS,4);
+            while($linksGet=$conn->fetchArray($links)){?>
+                <li><a href="<?php echo $linksGet['urlname'];?>"><?php echo $linksGet['name'];?></a></li>
+            <?php }?>
         </ul>
+        <div class="alignright">
+            <a href="<?php echo $link['urlname'];?>" class="button">Read more</a>
+        </div>
     </article>
+
+    <article class="indent-bot-1">
+        <div class="bills-div"><a href="bills.php"><div class="bills">भुक्तानीका लागि प्राप्त विलहरुको सर्वाजनिकरण</div></a></div>
+    </article>
+
+    <article class="indent-bot-1">
+        <?php $news_title=$conn->fetchArray($groups->getById(NEWS));?>
+        <h2 class="heading-1"><?php echo $news_title['name']; ?></h2>
+        <ul class="list-1">
+            <?php
+            $news=$groups->getByParentIdWithLimit(NEWS,4);
+            while($newsGet=$conn->fetchArray($news)){?>
+                <li><a href="<?php echo $newsGet['urlname'];?>"><?php echo $newsGet['name'];?></a></li>
+            <?php }?>
+        </ul>
+        <div class="alignright">
+            <a href="<?php echo $news_title['urlname'];?>" class="button">Read more</a>
+        </div>
+    </article>
+
 </div>
     
 <div class="rightbar">

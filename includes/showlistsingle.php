@@ -1,3 +1,7 @@
+<style type="text/css">
+  #breadcrumb a{color: black}
+  .entry-content a{color: black}
+</style>
 <?php include("includes/breadcrumb.php"); ?>
 
 <?php
@@ -8,7 +12,7 @@
 	$pageRow = $conn->fetchArray($pageResult);
 	
 	?>
-<div id="content" class="cf" style="width:75%">
+<div id="content" class="cf" style="">
 <?php //include("includes/breadcrumb.php"); ?>
 <article class="single-view post-77 page type-page status-publish hentry">
     <header class="entry-header cf"><h2 class="entry-title"><?php if($lan!='en') echo $pageName; else echo $pageNameEn;?></h2></header>

@@ -32,11 +32,29 @@ header{width: 100%}
 section#content {
 	width: 100%;
 }
-.leftbar{width: 100%}
-.rightbar{width: 100%}
+.leftbar{width: 98%}
+.rightbar{width: 98%}
 
+.article-content{text-align: center;}
+
+.bills{margin-bottom: 15px;}
+.sewakendra{width: 98%;}
+.gallery{width: 98%}
+
+.facebook, .publication, .contact, .social{width: 98% !important;}
+
+.social ul li{text-align: left;}
+
+#content{width: 98%}
+
+/*.copy{width: 98%}
+.powered{width: 98%}
+*/
 @media (max-width: 400px) {
   .welcome {
     margin-right: 6%;
+    .bills{padding-top:5px;padding-bottom: 5px; }
   }
+  .gallery{margin-right: 3%}
+  #content{width: 89%}
 }

@@ -1,8 +1,10 @@
+<?php require_once('clientobjects.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  	<title>Home</title>
+  	<title>DADO Baglung - Home</title>
+    <?php require_once('baselocation.php'); ?>
   	<meta charset="utf-8">
     <meta name="description" content="Your description">
     <meta name="keywords" content="Your keywords">
@@ -12,9 +14,6 @@
 
     <link rel="stylesheet" href="css/responsive.css" media="screen and (max-width:780px)">
 
-    <script src="js/jquery-1.js"></script>
-    <script src="js/superfish.js"></script>
-    <script src="js/jquery.js"></script>
 </head>
 <body>
 <div class="main-bg">
@@ -22,13 +21,14 @@
     <header>
     	<div class="inner container_24">
             <div class="logo">
-                <a href="index.html"></a>
+                <a href="<?php echo $SITE_URL;?>"></a>
             </div>
             <div id="header-title">
                 <h5>नेपाल सरकार</h5>
                 <h5>कृषि विकास मन्त्रालय</h5>
-                <h4>कृषि विभाग</h4>
-                <h3>जिल्ला कृषि विकास कार्यालय, बग्लुङ्ग</h3>
+                <h5>कृषि विभाग</h5>
+                <h5>पश्चिमान्चल क्षेत्रीय कृषि निर्देशनालय</h5>
+                <h3>जिल्ला कृषि विकास कार्यालय, बाग्लुङ्ग</h3>
             </div>
             <div id="header-flag">
                 <img src="images/flag.gif" />
@@ -37,38 +37,35 @@
         </div>
         <nav class="container_24">
             <ul class="sf-menu sf-js-enabled">
-                <li class="current"><a href="http://templates.websitetemplatesonline.com/Free-AgroPlus-Template/home.html">home</a></li>
-                <li><a href="http://templates.websitetemplatesonline.com/Free-AgroPlus-Template/products.html">products</a></li>
-                <li class="">
-                    <a href="http://templates.websitetemplatesonline.com/Free-AgroPlus-Template/technology.html">technology</a>
-                    <ul style="display: none;">
-                        <li><a href="#">Maecenas faucibus</a></li>
-                        <li><a href="#">Fusce tincidunt</a></li>
-                        <li class="">
-                            <a href="#">tempor eros</a>
-                            <ul style="display: none;">
-                                <li><a href="#">ut viverra</a></li>
-                                <li><a href="#">hendrerit mauris</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">mauris ut du</a></li>
-                    </ul>
-                </li>
-                <li><a href="http://templates.websitetemplatesonline.com/Free-AgroPlus-Template/pricing.html">pricing</a></li>
-                <li><a href="http://templates.websitetemplatesonline.com/Free-AgroPlus-Template/contacts.html">contacts</a></li>
+                <?php createMenu(0, 'Header'); ?>
             </ul>
         </nav>
         <div class="clear"></div>
 
-        <div class="slider-container container_24">
-            <div class="slider">
-
+        <?php if(empty($pageLinkType) and !isset($_GET['action'])){?>
+            <div class="slider-container container_24">
+                <div class="slider">
+                    <?php require_once('slider/slider.php'); ?>
+                </div>
+                <div class="chief">
+                    <article class="indent-bot-1" style="text-align: center;padding: 0 0 5px 0">
+                        <?php
+                        $chief=$groups->getById(OFFICER); $chief=$conn->fetchArray($chief);
+                        ?>
+                        <h2 class="heading-1"><?php echo $chief['name'];?></h2>
+                        <img src="<?php echo CMS_GROUPS_DIR.$chief['image'] ?>" >
+                        <p class="hr-border-1 article-content">
+                            <?php echo $chief['shortcontents'];?>
+                        </p>
+                        <div class="alignright">
+                            <a href="<?php echo $chief['urlname'];?>" class="button">Read more</a>
+                        </div>
+                    </article>
+                </div>
+                <div style="clear: both"></div>
             </div>
-            <div class="chief">
+        <?php }?>
 
-            </div>
-            <div style="clear: both"></div>
-        </div>        
     </header>
     <div style="clear: both;"></div>
     <!-- Content -->

@@ -1,6 +1,9 @@
+<style type="text/css">
+	.listRow a {color: #000}
+</style>
 <?php include("includes/breadcrumb.php"); ?>
 
-<div id="content" class="cf" style="width:75%">
+<div id="content" class="cf" style="">
 <?php //include("includes/breadcrumb.php"); ?>
 <article class="single-view post-77 page type-page status-publish hentry">
     <header class="entry-header cf"><h2 class="entry-title"><?php if($lan!='en') echo $pageName; else echo $pageNameEn;?></h2></header>

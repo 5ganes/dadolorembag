@@ -8,44 +8,36 @@
     <!-- Footer -->
     <footer>
     	<div class="container_24">
-        	<div class="wrapper">
+        	<div class="wrapper footer_wrap">
             	<div class="grid_24 footer-bg">
         			<div class="hr-border-2"></div>
                     <div class="wrapper">
-                        <div class="grid_7 suffix_1 prefix_1 alpha">
+                        <div class="grid_7 suffix_1 prefix_1 alpha facebook">
                         	<div class="copyright">
-                            	© 2012 <strong class="footer-logo">AgroPlus</strong>
-								<div>More <a href="http://www.websitetemplatesonline.com/" title="WTO - website templates and Flash templates" target="_blank">Free Web Templates</a> at WTO.</div>
-                                <div><a rel="nofollow" href="http://www.templatemonster.com/">Website Template</a> by TemplateMonster.com</div>
+                            	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkrishighar%2F&tabs=timeline&width=260px&height=260px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="260px" height="260px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                             </div>
                         </div>
-                        <div class="grid_4">
-                        	<h5 class="heading-1">Archives:</h5>
+                        <div class="grid_7 publication">
+                        	<h2 class="heading-1">Our Publications:</h2>
                             <ul class="footer-list">
-                            	<li><a href="#">October 2012</a></li>
-                                <li><a href="#">September 2012</a></li>
-                                <li><a href="#">August 2012</a></li>
-                                <li><a href="#">July 2012</a></li>
+                                <?php
+                                $download=$groups->getByParentIdWithLimit(PUBLICATION,6);
+                                while($downloadGet=$conn->fetchArray($download)){?>
+                            	   <li>
+                                        <a href="<?php echo CMS_GROUPS_DIR.$downloadGet['contents'] ?>">
+                                            <?php echo $downloadGet['name'] ?>                                           
+                                        </a>
+                                    </li>
+                                <?php }?>
                             </ul>
                         </div>
-                        <div class="grid_4">
-                        	<h5 class="heading-1">Links:</h5>
-                            <ul class="footer-list">
-                            	<li><a href="#">Documentation</a></li>
-                                <li><a href="#">Plugins</a></li>
-                                <li><a href="#">Suggest Ideas</a></li>
-                                <li><a href="#">Support Forum</a></li>
-                            </ul>
+                        <div class="grid_7 contact">
+                        	<h2 class="heading-1">Contact Information:</h2>
+                            <?php $contact=$conn->fetchArray($groups->getById(CONTACT));?>
+                            <p><?php echo $contact['shortcontents'];?></p>
                         </div>
-                        <div class="grid_4">
-                        	<h5 class="heading-1">Support:</h5>
-                            <ul class="footer-list">
-                            	<li><a href="#">Special Proposition</a></li>
-                                <li><a href="#">Free Phone</a></li>
-                                <li><a href="#">Solutions</a></li>
-                            </ul>
-                        </div>
-                        <div class="grid_2 suffix_1 omega">
+                        <div class="grid_3 suffix_1 omega social">
+                            <h2 class="heading-1">Visit Us:</h2>
                         	<ul class="social-list">
                             	<li><a href="#"><img src="index_files/social-icon-1.png" alt=""></a></li>
                                 <li><a href="#"><img src="index_files/social-icon-2.png" alt=""></a></li>
@@ -57,7 +49,38 @@
         	</div>
         </div>
     </footer>
+
+    <footer>
+        <div class="container_24">
+            <div class="wrapper footer_wrap">
+                <div class="grid_24 footer-bg">
+                    <div class="wrapper">
+                        <div class="copy">Copyright @ DADO Baglung, Baglung.</div>
+                        <div class="powered">Powered By: <a href="http://krishighar.com">Team Krishighar</div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </div>
+
+<!-- slider jquery include -->
+<script src="slider/js/jquery-1.9.1.min.js"></script>
+<!-- <script src="slider/js/bootstrap.min.js"></script> -->
+<!-- <script src="slider/js/docs.min.js"></script> -->
+<!-- <script src="slider/js/ie10-viewport-bug-workaround.js"></script> -->
+<script type="text/javascript" src="slider/js/jssor.slider.mini.js"></script>
+<script type="text/javascript" src="slider/js/script.js"></script>
+<!-- slider jquery include end -->
+
+
+<!-- menu submenu jquery include -->
+<script src="js/jquery-1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.js"></script>
+<!-- menu submenu jquery include end -->
 
 </body>
 </html>
