@@ -21,7 +21,7 @@ html {/*min-width:960px;*/}
 	width:950px;
 }
 .main-bg {
-	/*background:url(../images/main-bg.jpg) no-repeat center 0;*/
+	background:#ecf1fb;
 	min-height:100%;
 }
 /*----- alignment & clearing -----*/

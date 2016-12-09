@@ -3,7 +3,7 @@
   <h2><?php echo $welcome['name'];?></h2>
   <div class="wrapper hr-border-1">
       <div class="welcome">
-          <img src="images/slide-1.jpg">
+          <img src="<?php echo CMS_GROUPS_DIR.$welcome['image'];?>">
           <?php echo $welcome['shortcontents'];?>
           
       </div>    
