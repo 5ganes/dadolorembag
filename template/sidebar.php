@@ -29,7 +29,7 @@
     </article>
 
     <article class="indent-bot-1">
-        <div class="bills-div"><a href="bills.php"><div class="bills">भुक्तानीका लागि प्राप्त विलहरुको सर्वाजनिकरण</div></a></div>
+        <div class="bills-div"><a href="bills.php"><div class="bills">भुक्तानीका लागि प्राप्त विलहरुको सार्वजनिकरण</div></a></div>
     </article>
 
     <article class="indent-bot-1">

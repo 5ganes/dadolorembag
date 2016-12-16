@@ -17,7 +17,7 @@
   <div class="wrapper hr-border-1">
       <div class="sewakendra">
         <article class="indent-bot-1">
-          <h2 class="">Sewandra</h2>
+          <h2 class="">हाम्रा सेवाकेन्द्रहरु</h2>
           <ul class="list-1">
               <?php
               $kendra = new Sewakendra();
@@ -33,7 +33,7 @@
       </div>
       <div class="gallery">
         <article class="indent-bot-1">
-          <h2 class="">Our Gallery</h2>
+          <h2 class="">हाम्रो फोटो गेलरी</h2>
           <iframe src="wow/slideimage.php" style="width:340px;height:230px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
         </article>
       </div>

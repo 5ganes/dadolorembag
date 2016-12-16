@@ -18,7 +18,7 @@
                             </div>
                         </div>
                         <div class="grid_7 publication">
-                        	<h2 class="heading-1">Our Publications:</h2>
+                        	<h2 class="heading-1">हाम्रा पब्लिकेशनहरु:</h2>
                             <ul class="footer-list">
                                 <?php
                                 $download=$groups->getByParentIdWithLimit(PUBLICATION,6);
@@ -32,12 +32,12 @@
                             </ul>
                         </div>
                         <div class="grid_7 contact">
-                        	<h2 class="heading-1">Contact Information:</h2>
+                        	<h2 class="heading-1">हाम्रो सम्पर्क:</h2>
                             <?php $contact=$conn->fetchArray($groups->getById(CONTACT));?>
                             <p><?php echo $contact['shortcontents'];?></p>
                         </div>
                         <div class="grid_3 suffix_1 omega social">
-                            <h2 class="heading-1">Visit Us:</h2>
+                            <h2 class="heading-1">सामाजिक सन्जाल:</h2>
                         	<ul class="social-list">
                             	<li><a href="#"><img src="index_files/social-icon-1.png" alt=""></a></li>
                                 <li><a href="#"><img src="index_files/social-icon-2.png" alt=""></a></li>
