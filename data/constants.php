@@ -34,7 +34,7 @@ define("OFFICER", 274);
 define("PHOTO_GALLERY", 462);
 define("PUBLICATION", 338);
 define("YOUTUBE", 373);
-define("VIDEO_GALLERY", 386);
+define("VIDEO_GALLERY", 433);
 
 ///////////////GENERAL CLIENT SIDE CONSTANTS///////////////////
 

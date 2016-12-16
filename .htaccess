@@ -31,8 +31,8 @@ RewriteRule ^video-gallery index.php?action=video_gallery [L]
 RewriteRule ^audios index.php?action=audios [L]
 RewriteRule ^audios/page/([0-9]+)$ index.php?action=audios&page=$1 [L]
 
-RewriteRule ^videos index.php?action=videos [L]
 RewriteRule ^videos/page/([0-9]+)$ index.php?action=videos&page=$1 [L]
+RewriteRule ^videos index.php?action=videos [L]
 
 RewriteRule ^makelogin index.php?action=make_log_in [L]
 RewriteRule ^forgotpassword index.php?action=forgot_password [L]
