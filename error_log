@@ -1,0 +1,147 @@
+[06-Apr-2018 06:41:38 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:41:38 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:41:40 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:41:40 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:41:40 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:41:40 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:41:41 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:41:41 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:47:02 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_5ubsq4l82ftq4e9k1cb93cnbq1, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:47:02 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:47:46 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:47:46 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:47:46 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:47:46 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:47:46 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:47:46 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:47:55 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_7c732lf6gi1jnh91ct15ibqo20, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:47:55 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:50:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:50:20] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:50:22] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:50:22] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:50:23] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:50:23] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:50:23] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:50:23] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:50:24] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:50:24] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:50:24] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:50:24] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:50:24] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:50:24] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:51:33] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:51:33] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:51:33] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:51:33] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:51:34] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:51:34] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 06:51:41] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 06:51:41] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 09:10:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 09:10:00] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 09:10:01] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 09:10:01] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 09:10:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 09:10:02] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 09:40:26 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_s90f4cveddsnbe66fld4sgkui0, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 09:40:26 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 10:22:53 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_6u7e7v5k80pdvsbfe5nc7ukk05, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 10:22:53 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 10:44:41 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_a5uee3car0s9vijgbesntoh9n3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 10:44:42 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 16:22:56 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_h8epgd8t6e9ap2cbifm1hg6a42, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 16:22:56 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 17:03:56 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_ovu0nbfhljfkn7vu90k3cte810, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 17:03:56 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 17:47:57 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_7p72hmu54flivminolj3dqmr35, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 17:47:57 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[06-Apr-2018 18:42:10 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_a00f772eklealopcc6updvsbl7, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[06-Apr-2018 18:42:10 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[07-Apr-2018 01:47:01 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_rbl4bchvf3pigd2d7obv8jket7, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[07-Apr-2018 01:47:01 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[07-Apr-2018 01:47:57 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_rbl4bchvf3pigd2d7obv8jket7, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[07-Apr-2018 01:47:57 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[07-Apr-2018 03:11:06 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_m55icm676nun9262n60495hpg0, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[07-Apr-2018 03:11:06 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[07-Apr-2018 03:56:19 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_e9hsilu1f5nj6m3u27ftbhubf0, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[07-Apr-2018 03:56:19 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[07-Apr-2018 04:51:53 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_cst9q6fckpjht5f9ns557e4ta3, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[07-Apr-2018 04:51:53 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[07-Apr-2018 07:50:15 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_a6eh14udb55c4gmp9dapohedv4, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[07-Apr-2018 07:50:15 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[07-Apr-2018 10:08:11 Etc/GMT] PHP Warning:  session_start(): open(/tmp/sess_1fvun32pi8kjlvoc8hc18a19v5, O_RDWR) failed: No such file or directory (2) in /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php on line 2
+[07-Apr-2018 10:08:11 Etc/GMT] PHP Fatal error:  Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[08-Apr-2018 18:48:51 Etc/GMT] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[09-Apr-2018 20:45:09 Etc/GMT] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[10-Apr-2018 21:35:48 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php:17
+Stack trace:
+#0 /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php(26): Dbconn->Dbconn()
+#1 /home/krishwt5/public_html/dadobaglung.gov.np/index.php(18): require_once('/home/krishwt5/...')
+#2 {main}
+  thrown in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[10-Apr-2018 21:35:50 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php:17
+Stack trace:
+#0 /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php(26): Dbconn->Dbconn()
+#1 /home/krishwt5/public_html/dadobaglung.gov.np/index.php(18): require_once('/home/krishwt5/...')
+#2 {main}
+  thrown in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[11-Apr-2018 03:09:05 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php:17
+Stack trace:
+#0 /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php(26): Dbconn->Dbconn()
+#1 /home/krishwt5/public_html/dadobaglung.gov.np/index.php(18): require_once('/home/krishwt5/...')
+#2 {main}
+  thrown in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[11-Apr-2018 03:47:02 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php:17
+Stack trace:
+#0 /home/krishwt5/public_html/dadobaglung.gov.np/clientobjects.php(26): Dbconn->Dbconn()
+#1 /home/krishwt5/public_html/dadobaglung.gov.np/index.php(18): require_once('/home/krishwt5/...')
+#2 {main}
+  thrown in /home/krishwt5/public_html/dadobaglung.gov.np/data/conn.php on line 17
+[12-Apr-2018 23:38:38 Etc/GMT] PHP Fatal error:  Call to a member function getByListingId() on null in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[12-Apr-2018 23:40:03 Etc/GMT] PHP Fatal error:  Call to a member function getByListingId() on null in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[12-Apr-2018 23:40:08 Etc/GMT] PHP Fatal error:  Call to a member function getByListingId() on null in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[12-Apr-2018 23:40:18 Etc/GMT] PHP Fatal error:  Call to a member function getByListingId() on null in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[16-Apr-2018 09:05:30] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[16-Apr-2018 10:08:02] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[16-Apr-2018 10:09:49] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[16-Apr-2018 10:09:54] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[16-Apr-2018 10:10:28] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[16-Apr-2018 10:10:31] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[25-Apr-2018 01:01:39] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[01-May-2018 10:53:13] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[01-May-2018 10:53:14] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[01-May-2018 10:53:14] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[07-May-2018 04:44:53] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[08-May-2018 16:56:46] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[08-May-2018 18:21:50] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[09-May-2018 18:14:43] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[09-May-2018 21:16:43] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[15-May-2018 03:45:53] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[19-May-2018 10:57:14] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[23-May-2018 05:21:46] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[23-May-2018 05:24:41] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[23-May-2018 05:25:22] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[24-May-2018 04:52:44] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[24-May-2018 05:26:05] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[24-May-2018 05:26:59] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[24-May-2018 05:27:05] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[24-May-2018 05:27:39] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[24-May-2018 05:27:59] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[24-May-2018 05:28:18] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[24-May-2018 23:57:49] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[25-May-2018 06:24:47] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[25-May-2018 12:36:49] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[26-May-2018 14:06:30] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[27-May-2018 14:09:22] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[28-May-2018 03:15:10] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[28-May-2018 09:10:35] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[28-May-2018 23:30:54] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[29-May-2018 14:07:06] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[29-May-2018 14:44:42] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[02-Jun-2018 16:27:02] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[05-Jun-2018 23:42:20] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[05-Jun-2018 23:42:20] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[06-Jun-2018 00:55:09] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[07-Jun-2018 09:13:28] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52
+[11-Jun-2018 20:27:37] PHP Fatal error:  Call to a member function getByListingId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/includes/showlistsingle.php on line 52

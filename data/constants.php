@@ -5,7 +5,7 @@ define("ADMIN_LEFT_WIDTH", "20%");
 define("ADMIN_BODY_WIDTH", "80%");
 define("ADMIN_TITLE", "Admin Control Panel");
 define("PAGE_TITLE", "DADO Baglung");
-define("SITE_URL", "http://localhost/dadobaglung/");
+define("SITE_URL", "http://dadobaglung.gov.np/");
 
 
 ////////////////IMAGE FOLDER LOCATIONS////////////////////////

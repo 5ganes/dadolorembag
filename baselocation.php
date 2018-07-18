@@ -1,1 +1,1 @@
-<base href="http://<?=$_SERVER['HTTP_HOST']?>/dadobaglung/" />
+<base href="http://<?=$_SERVER['HTTP_HOST']?>/" />

@@ -1,0 +1,3 @@
+[30-Sep-2017 09:12:00] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[30-Sep-2017 09:12:00] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[30-Sep-2017 09:12:00] PHP Fatal error:  Unknown: Failed opening required '/home1/krishwt5/public_html/dadobaglung.gov.np/js/Readme_5.php' (include_path='.:/opt/alt/php52/usr/share/pear:/opt/alt/php52/usr/share/php') in Unknown on line 0

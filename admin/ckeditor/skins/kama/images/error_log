@@ -1,0 +1,9 @@
+[16-Mar-2018 10:32:19] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[16-Mar-2018 10:32:19] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[16-Mar-2018 10:32:19] PHP Fatal error:  Unknown: Failed opening required '/home1/krishwt5/public_html/dadobaglung.gov.np/admin/ckeditor/skins/kama/images/spinner.php' (include_path='.:/opt/alt/php52/usr/share/pear:/opt/alt/php52/usr/share/php') in Unknown on line 0
+[17-Mar-2018 09:23:56] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[17-Mar-2018 09:23:56] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[17-Mar-2018 09:23:56] PHP Fatal error:  Unknown: Failed opening required '/home1/krishwt5/public_html/dadobaglung.gov.np/admin/ckeditor/skins/kama/images/spinner.php' (include_path='.:/opt/alt/php52/usr/share/pear:/opt/alt/php52/usr/share/php') in Unknown on line 0
+[17-Mar-2018 09:24:18] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[17-Mar-2018 09:24:18] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[17-Mar-2018 09:24:18] PHP Fatal error:  Unknown: Failed opening required '/home1/krishwt5/public_html/dadobaglung.gov.np/admin/ckeditor/skins/kama/images/spinner.php' (include_path='.:/opt/alt/php52/usr/share/pear:/opt/alt/php52/usr/share/php') in Unknown on line 0

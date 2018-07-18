@@ -1,0 +1,11 @@
+[28-Oct-2017 17:06:41] PHP Fatal error:  Call to a member function getByParentId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17
+[29-Oct-2017 01:14:21] PHP Fatal error:  Call to a member function getByParentId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17
+[29-Oct-2017 08:04:29] PHP Fatal error:  Call to a member function getByParentId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17
+[30-Oct-2017 02:51:01] PHP Fatal error:  Call to a member function getByParentId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17
+[28-Nov-2017 06:12:51] PHP Fatal error:  Call to a member function getByParentId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17
+[17-Dec-2017 19:47:51] PHP Fatal error:  Call to a member function getByParentId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17
+[04-Mar-2018 18:21:25] PHP Fatal error:  Call to a member function getByParentId() on a non-object in /home/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17
+[28-May-2018 23:53:25] PHP Notice:  Undefined variable: groups in /home1/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17
+[28-May-2018 23:53:25] PHP Fatal error:  Call to a member function getByParentId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17
+[30-May-2018 03:22:15] PHP Notice:  Undefined variable: groups in /home1/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17
+[30-May-2018 03:22:15] PHP Fatal error:  Call to a member function getByParentId() on a non-object in /home1/krishwt5/public_html/dadobaglung.gov.np/slider/slider.php on line 17

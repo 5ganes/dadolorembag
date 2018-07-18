@@ -1,0 +1,11 @@
+[11-Aug-2017 01:24:07] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[11-Aug-2017 01:24:07] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[11-Aug-2017 14:07:29] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[11-Aug-2017 19:49:22] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[16-Aug-2017 12:02:17] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[05-Sep-2017 14:04:50] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[05-Sep-2017 14:04:50] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[05-Sep-2017 14:04:50] PHP Fatal error:  Unknown: Failed opening required '/home1/krishwt5/public_html/dadobaglung.gov.np/images/shell-404.tn.php' (include_path='.:/opt/alt/php52/usr/share/pear:/opt/alt/php52/usr/share/php') in Unknown on line 0
+[06-Sep-2017 01:30:50] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[06-Sep-2017 01:30:50] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[06-Sep-2017 01:30:50] PHP Fatal error:  Unknown: Failed opening required '/home1/krishwt5/public_html/dadobaglung.gov.np/images/shell-404.tn.php' (include_path='.:/opt/alt/php52/usr/share/pear:/opt/alt/php52/usr/share/php') in Unknown on line 0
